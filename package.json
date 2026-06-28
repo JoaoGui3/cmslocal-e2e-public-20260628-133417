@@ -1,0 +1,21 @@
+{
+  "name": "cmslocal-e2e-fixture",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "cms": "tinacms dev -c \"vite --host 127.0.0.1\"",
+    "build": "tinacms build --local --skip-cloud-checks && vite build"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "typescript": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tinacms": "latest"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "latest"
+  }
+}
